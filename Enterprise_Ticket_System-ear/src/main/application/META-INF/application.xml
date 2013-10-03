@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:application="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com /xml/ns/j2ee http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="1.4">
+  <display-name>Enterprise Ticket System</display-name>
+  <module>
+    <ejb>Enterprise_Ticket_System-ejb-1.0-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>Enterprise_Ticket_System-web-1.0-SNAPSHOT.war</web-uri>
+      <context-root>ticket_system</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
